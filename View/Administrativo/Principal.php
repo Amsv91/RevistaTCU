@@ -74,8 +74,8 @@ and open the template in the editor.
                 <div class="container">
                     <div class="nav-wrapper fixed">
                         <a class="page-title">PORTAL ADMINISTRATIVO</a>
-                        <a href="#!"><i class="material-icons">home</i></a>
-                        
+                     <!--    <a href="#!"><i class="material-icons">home</i></a>  -->
+                         
                      <!--   <li class="search">
                         <div class="search-wrapper card">
                             <input id="search">
@@ -84,10 +84,6 @@ and open the template in the editor.
                         </div>
                     </li> -->
                     </div>
-                </div>
-                
-                <div class="container ">
-                    
                 </div>
                 
                 <ul id="nav-mobile" class="side-nav fixed teal" style="transform: translateX(0%);">
@@ -102,27 +98,31 @@ and open the template in the editor.
                     </li>
                                         
                     <li class="bold">
-                        <a href="#" onclick="redireccionando('Usuario');" class="waves-effect waves-light"><i class="material-icons left">perm_identity</i>Usuarios</a>
+                        <a href="Usuarios.php" class="waves-effect waves-light"><i class="material-icons left">perm_identity</i>Usuarios</a>
                     </li>
                     
                     <li class="bold">
-                        <a href="#" onclick="redireccionando('Cantones');" class="waves-effect waves-light"><i class="material-icons left">group_work</i>Cantones</a>
+                        <a href="Cantones.php" class="waves-effect waves-light"><i class="material-icons left">group_work</i>Cantones</a>
                     </li>
                     
                     <li class="bold">
-                        <a href="#" onclick="redireccionando('Categorias');" class="waves-effect waves-light"><i class="material-icons left">add</i>Categorias</a>
+                        <a href="Categorias.php" class="waves-effect waves-light"><i class="material-icons left">add</i>Categorias</a>
                     </li>
                     
                     <li class="bold">
-                        <a href="#" onclick="redireccionando('Noticias');" class="waves-effect waves-light"><i class="material-icons left">info</i>Noticias</a>
+                        <a href="Noticias.php" class="waves-effect waves-light"><i class="material-icons left">info</i>Noticias</a>
                     </li>
                     
                     <li class="bold">
-                        <a href="#" onclick="redireccionando('Comentarios');" class="waves-effect waves-light"><i class="material-icons left">comment</i>Comentarios</a>
+                        <a href="#"  class="waves-effect waves-light"><i class="material-icons left">comment</i>Comentarios</a>
                     </li>
                     
                     <li class="bold">
-                        <a href="#" onclick="redireccionando('Documentos');" class="waves-effect waves-light"><i class="material-icons left">note_add</i>Documentos</a>
+                        <a href="Instituciones.php"  class="waves-effect waves-light"><i class="material-icons left">comment</i>Instituciones</a>
+                    </li>
+                    
+                    <li class="bold">
+                        <a href="Documentos.php"  class="waves-effect waves-light"><i class="material-icons left">note_add</i>Documentos</a>
                     </li>
                     
                     <li class="bold">
@@ -135,15 +135,5 @@ and open the template in the editor.
             
         </header>
         
-        
-        <main>
-            <div class="contenedorPortal">
-                <div id="contenido"></div>     
-            </div>
-        </main>
-        
-        <footer>
-            
-        </footer>
     </body>    
 </html>

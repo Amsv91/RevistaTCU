@@ -26,17 +26,20 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <h1>Administrador de Usuarios</h1>
-        <br>
-        <br>
-        <br>
-        <div class="contenedor">
-            <div class="card focus s3 m3">
+        <?php
+        include_once './Principal.php';
+        ?> 
+
+        <div class="contenedorPortal ">
+            
+            <h1>Administrador de Usuarios</h1>
+            <br>
+           <!-- <div class="card focus s3 m3">
                 <div class="input-field s3 m3">
                     <input id="search" type="search">
                     <label class="label-icon" for="search"><i class="material-icons">search</i></label>
                 </div>
-            </div>
+            </div>  -->
 
             <a href="#" onclick="redireccionando('NuevoUsuario');" class="waves-effect waves-light btn right"><i class="material-icons left">add</i>Nuevo Usuario</a>
             <br>
@@ -112,8 +115,8 @@ and open the template in the editor.
         <script type="text/javascript" src="../../JS/materialize.min.js"></script>
 
         <script type="text/javascript">
-            var table = $('#example').DataTable({});
-            $('select').material_select();
+                var table = $('#example').DataTable({});
+                $('select').material_select();
         </script>
     </body>    
 </html>
