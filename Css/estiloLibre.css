@@ -1,0 +1,59 @@
+
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+h5 {
+    color: #20B2AA;
+    font-weight: bold;
+}
+
+h2 {
+    color: #A9A9A9;
+}
+
+/*color iconos*/
+p i, h5 i{
+    color: #20B2AA;
+}
+
+span h4 {
+	 color: #2F4F4F;
+    font-weight: bold;
+}
+
+h2 i {
+    color: #20B2AA;
+}
+
+.nav-wrapper {
+  background-color: #20B2AA;
+}
+
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider {
+  width: 900px;
+  margin: 0 auto;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
+

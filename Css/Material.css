@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-feb-2017, 20:03:26
+    Author     : Alpizar-Solis
+*/
+
+
+.contenedorSlider{
+   
+    width: 100%;
+}
+
+.contenedor{
+   
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.barraLateral{
+    display: inline-block;
+    margin: 0px;
+    width: 20%;
+    height: 520px;
+}
+
+.contenedorPortal{
+    width: 73%;
+    padding: 0;
+    display: flex;
+    margin-left: 25%;
+}
+
+.clsNav{
+    width: 78%;
+    margin-left: auto;
+}
