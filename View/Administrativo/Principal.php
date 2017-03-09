@@ -22,54 +22,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        
-        <script>
-            function redireccionando(str) {
-                if (str == "") {
-                    document.getElementById("contenido").innerHTML = "";
-                    return;
-                }
-                if (window.XMLHttpRequest) {
-                    // code for IE7+, Firefox, Chrome, Opera, Safari
-                    xmlhttp = new XMLHttpRequest();
-                } else { // code for IE6, IE5
-                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-                }
-                xmlhttp.onreadystatechange = function () {
-                    if (this.readyState == 4 && this.status == 200) {
-                        document.getElementById("contenido").innerHTML = this.responseText;
-                    }
-                }
-                if(str=='Noticias'){
-                    xmlhttp.open("GET", "Noticias.php", true);
-                    xmlhttp.send();
-                }
-                else if(str=='Categorias'){
-                    xmlhttp.open("GET", "Categorias.php", true);
-                    xmlhttp.send();
-                }
-                else if(str=='Usuario'){
-                    xmlhttp.open("GET", "Usuarios.php", true);
-                    xmlhttp.send();
-                }
-                else if(str=='Cantones'){
-                    xmlhttp.open("GET", "Cantones.php", true);
-                    xmlhttp.send();
-                }
-                else if(str=='Documentos'){
-                    xmlhttp.open("GET", "Documentos.php", true);
-                    xmlhttp.send();
-                }
-                
-                 else if(str=='NuevoUsuario'){
-                    xmlhttp.open("GET", "/RevistaTCU/View/Usuarios/Nuevo.php", true);
-                    xmlhttp.send();
-                }
-                
-            }
-        </script>
-        
-        <header style="background-color: yellow;">
+        <header >
             <nav class="top-nav teal clsNav">
                 <div class="container">
                     <div class="nav-wrapper fixed">

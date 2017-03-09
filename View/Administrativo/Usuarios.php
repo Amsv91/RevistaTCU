@@ -22,7 +22,6 @@ and open the template in the editor.
         <link href="../../Css/materialize.min.css" rel="stylesheet" />
         <link href="../../Css/Material.css" rel="stylesheet">
         <script type="text/javascript" src="JS/materialize.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="../../Css/dataTables.materialize.css">
         <title></title>
     </head>
     <body>
@@ -30,18 +29,18 @@ and open the template in the editor.
         include_once './Principal.php';
         ?> 
 
-        <div class="contenedorPortal ">
-            
-            <h1>Administrador de Usuarios</h1>
-            <br>
-           <!-- <div class="card focus s3 m3">
-                <div class="input-field s3 m3">
-                    <input id="search" type="search">
-                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                </div>
-            </div>  -->
+        <div class="contenedorPortal card">
 
-            <a href="#" onclick="redireccionando('NuevoUsuario');" class="waves-effect waves-light btn right"><i class="material-icons left">add</i>Nuevo Usuario</a>
+            <h1 class="center-align">Administrador de Usuarios</h1>
+            <br>
+            <div class="card focus s2 m2">
+                <div class="input-field s2 m2">
+                    <input id="search" type="search">
+                    <label class="label-icon" ><i class="material-icons">search</i></label>
+                </div>
+            </div>  
+            <a href="../Usuarios/Nuevo.php"  class="waves-effect waves-light btn right"><i class="material-icons left">add</i>Nuevo Usuario</a>
+
             <br>
             <br>
             <table id="example"class="striped ">
@@ -76,47 +75,11 @@ and open the template in the editor.
                         <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
                         <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
                     </tr>
-                    <tr>
-                        <td>1 4582 0245</td>
-                        <td>Mirta</td>
-                        <td>Hernandez</td>
-                        <td>Varela</td>
-                        <td>varela@gmail.com</td>
-                        <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-                        <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-                    </tr>
-                    <tr>
-                        <td>1 4582 0245</td>
-                        <td>Mirta</td>
-                        <td>Hernandez</td>
-                        <td>Varela</td>
-                        <td>varela@gmail.com</td>
-                        <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-                        <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-                    </tr>
-                    <tr>
-                        <td>1 4582 0245</td>
-                        <td>Mirta</td>
-                        <td>Hernandez</td>
-                        <td>Varela</td>
-                        <td>varela@gmail.com</td>
-                        <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-                        <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-                    </tr>
+
                 </tbody>
             </table>
 
         </div>
 
-
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="../../JS/jquery.dataTables.min.js"></script>
-        <script type="text/javascript" src="../../JS/dataTables.materialize.js"></script>
-        <script type="text/javascript" src="../../JS/materialize.min.js"></script>
-
-        <script type="text/javascript">
-                var table = $('#example').DataTable({});
-                $('select').material_select();
-        </script>
     </body>    
 </html>

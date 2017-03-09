@@ -24,14 +24,20 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-         <h1>Administrar Categorías</h1>
+        <?php
+        include_once './Principal.php';
+        ?> 
+        <div class="contenedorPortal">
+            <h1 class="center-align">Administrar Categorías</h1>
         <br>
         <br>
-        <br>
-        <table class="striped ">
+        <a href="#"  class="waves-effect waves-light btn right"><i class="material-icons left">add</i>Nuevo Cantón</a>
+         <br>
+         <br>
+        <table class="striped">
         <thead>
           <tr>
-              <th data-field="id">Cedula</th>
+              <th data-field="id">Cédula</th>
               <th data-field="nombre">Nombre</th>
               <th data-field="apellidos">Primer Apellido</th>
               <th data-field="apellidos">Segundo Apellido</th>
@@ -51,44 +57,11 @@ and open the template in the editor.
             <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
             <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
           </tr>
-          <tr>
-            <td>1 4582 0245</td>
-            <td>Mirta</td>
-            <td>Hernandez</td>
-            <td>Varela</td>
-            <td>varela@gmail.com</td>
-            <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-            <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-          </tr>
-          <tr>
-            <td>1 4582 0245</td>
-            <td>Mirta</td>
-            <td>Hernandez</td>
-            <td>Varela</td>
-            <td>varela@gmail.com</td>
-            <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-            <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-          </tr>
-          <tr>
-            <td>1 4582 0245</td>
-            <td>Mirta</td>
-            <td>Hernandez</td>
-            <td>Varela</td>
-            <td>varela@gmail.com</td>
-            <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-            <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-          </tr>
-          <tr>
-            <td>1 4582 0245</td>
-            <td>Mirta</td>
-            <td>Hernandez</td>
-            <td>Varela</td>
-            <td>varela@gmail.com</td>
-            <td><img src="../../Images/editar.png" width="20px" height="20px"></td>
-            <td><img src="../../Images/eliminar.png" width="20px" height="20px"></td>
-          </tr>
+          
         </tbody>
       </table>
+        </div>
+         
             
     </body>    
 </html>
