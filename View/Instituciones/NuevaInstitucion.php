@@ -38,64 +38,64 @@ and open the template in the editor.
                 <div class="card-title"></div>
                 <div class="card-content">
                     <div class="row ">
-                        <form class="col s12 ">
+                        <form class="col s12 " method="post" action="../../Business/RouterInstituto.php?metodo=insertarInstituto">
                             <div class="row">
                                 
                                 <div class="input-field  col s6">
                                     <i class="material-icons prefix">account_circle</i>
-                                    <input id="icon_prefix" type="text" class="validate" >
+                                    <input id="icon_prefix" type="text" name="nombre" class="validate" >
                                     <label for="icon_prefix">Nombre Institución: </label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">account_circle</i>
-                                    <input id="icon_prefix" type="text" class="validate" >
+                                    <input id="icon_prefix" type="text" name="cedula" class="validate" >
                                     <label for="icon_prefix">Cédula Juridica:</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">account_circle</i>
-                                    <input id="icon_prefix" type="text" class="validate" onkeypress="return soloNumeros(event, this)" maxlength="8" required>
+                                    <input id="icon_prefix" type="text" name="telefono" class="validate" onkeypress="return soloNumeros(event, this)" maxlength="8" required>
                                     <label for="icon_prefix">Télefono Institución:</label>
                                 </div>
 
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">phone</i>
-                                    <input id="icon_telephone" type="tel" class="validate" onkeypress="return soloLetras(event, this)" required>
+                                    <input id="icon_telephone" type="tel" name="encargado" class="validate" onkeypress="return soloLetras(event, this)" required>
                                     <label for="icon_telephone">Encargado:</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">phone</i>
-                                    <input id="icon_telephone" type="tel" class="validate">
-                                    <label for="icon_telephone">Direccion:</label>
+                                    <input id="icon_telephone" type="tel" name="direccion" class="validate">
+                                    <label for="icon_telephone">Dirección:</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">phone</i>
-                                    <input id="icon_telephone" type="tel" class="validate" onkeypress="return soloLetras(event, this)" required>
+                                    <input id="icon_telephone" type="tel" name="mision" class="validate" onkeypress="return soloLetras(event, this)" required>
                                     <label for="icon_telephone">Misión:</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">phone</i>
-                                    <input id="icon_telephone" type="tel" class="validate" onkeypress="return soloLetras(event, this)" required>
+                                    <input id="icon_telephone" type="tel" name="vision" class="validate" onkeypress="return soloLetras(event, this)" required>
                                     <label for="icon_telephone">Visión:</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">phone</i>
-                                    <input id="icon_telephone" type="tel" class="validate">
+                                    <input id="icon_telephone" type="tel" name="canton" class="validate">
                                     <label for="icon_telephone">Cantón:</label>
                                 </div>
                                 <br>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="icon_prefix" type="text" class="validate">
+                                    <input id="icon_prefix" type="text" name="correo" class="validate">
                                     <label for="icon_prefix">Correo</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="icon_prefix" type="text" class="validate">
+                                    <input id="icon_prefix" type="text" name="contrasena" class="validate">
                                     <label for="icon_prefix">Contraseña</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="icon_prefix" type="text" class="validate">
+                                    <input id="icon_prefix" type="text" name="contrasena2" class="validate">
                                     <label for="icon_prefix">Confirmar Contraseña</label>
                                 </div>
                                 <div class= "col s12">
